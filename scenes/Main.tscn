@@ -13,8 +13,11 @@ texture = SubResource("PlaceholderTexture2D_elqb8")
 centered = false
 
 [node name="PlaceBuildingButton" type="Button" parent="." unique_id=1978021090]
-offset_left = 6.0
-offset_top = 610.0
-offset_right = 123.0
-offset_bottom = 641.0
+offset_left = 5.0
+offset_top = 681.0
+offset_right = 122.0
+offset_bottom = 712.0
 text = "Place Building"
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1652563110]
+position = Vector2(5, 681)
